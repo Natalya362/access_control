@@ -4,7 +4,7 @@ logs/
 *.log
 *.lock
 
-.vacode/
+.vscode/
 v8userdefinfo/
 bin/
 
