@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<CommandsVisibility>
+		<Command name="Report.АнализДвиженияТранспорта.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">true</xr:Value>
+				<xr:Value name="Role.НачальникБюро">true</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">true</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">true</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Report.АнализПосещенийПоТочкамКонтроля.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">true</xr:Value>
+				<xr:Value name="Role.НачальникБюро">true</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">true</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">true</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Report.ЖурналПосещений.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.СотрудникБюро">true</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">true</xr:Value>
+				<xr:Value name="Role.НачальникБюро">true</xr:Value>
+				<xr:Value name="Role.Администратор">true</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Report.РеестрИнцидентов.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">true</xr:Value>
+				<xr:Value name="Role.НачальникБюро">true</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">true</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Report.СписокВыданныхПропусков.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">true</xr:Value>
+				<xr:Value name="Role.НачальникБюро">true</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">true</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">true</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<GroupsOrder>
+		<Group>NavigationPanelImportant</Group>
+	</GroupsOrder>
+</CommandInterface>

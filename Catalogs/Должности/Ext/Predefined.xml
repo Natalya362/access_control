@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.19">
+	<Item id="9e9803f2-4659-4770-bf00-0b4a4cf41cf8">
+		<Name>ГенеральныйКонструктор</Name>
+		<Code>000000005</Code>
+		<Description>Генеральный конструктор КБ Салют</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b8ee0190-b25a-461c-9637-62304e1d0a9c">
+		<Name>ДиректорРКЗ</Name>
+		<Code>000000008</Code>
+		<Description>Директор РКЗ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="74a46d3d-29a6-44be-9ba7-34cbf3c210b1">
+		<Name>ЗамГенДиректораПоЛинии</Name>
+		<Code>000000004</Code>
+		<Description>Заместитель генерального директора</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e506b26c-0deb-460c-b83b-26897193989b">
+		<Name>ЗамГенДиректора</Name>
+		<Code>000000003</Code>
+		<Description>Заместитель генерального директора по безопасности</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="34737321-dda3-4c63-8115-6fe1c10e20b6">
+		<Name>НачальникБюро</Name>
+		<Code>000000007</Code>
+		<Description>Начальник бюро пропусков</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5e452959-9470-4fea-b374-929bdc79eb0f">
+		<Name>НачальникОтдела</Name>
+		<Code>000000001</Code>
+		<Description>Начальник отдела</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="83eda733-9f60-45fc-a1ab-2af3faa66361">
+		<Name>Охрана</Name>
+		<Code>000000002</Code>
+		<Description>Охрана</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a43ea089-8489-4812-bcb3-6468534b3cb4">
+		<Name>РаботникБюро</Name>
+		<Code>000000009</Code>
+		<Description>Работник бюро</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="28d2b743-02d1-4545-a849-4589a407fc47">
+		<Name>Сотрудник</Name>
+		<Code>000000006</Code>
+		<Description>Сотрудник бюро</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

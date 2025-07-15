@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="ПаспортныеДанные" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Паспортные данные</v8:content>
+				</v8:item>
+			</Title>
+			<TitleFont ref="style:NormalTextFont" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Паспортные данные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<VerticalSpacing>Single</VerticalSpacing>
+			<ExtendedTooltip name="ПаспортныеДанныеРасширеннаяПодсказка" id="20"/>
+			<ChildItems>
+				<UsualGroup name="Группа1" id="34">
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="35"/>
+					<ChildItems>
+						<InputField name="ФизическоеЛицо" id="40">
+							<DataPath>Объект.ФизическоеЛицо</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ФизическоеЛицоКонтекстноеМеню" id="41"/>
+							<ExtendedTooltip name="ФизическоеЛицоРасширеннаяПодсказка" id="42"/>
+						</InputField>
+						<InputField name="ФИО" id="43">
+							<DataPath>Объект.ФизическоеЛицо.Description</DataPath>
+							<Enabled>false</Enabled>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ФИО</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ФИОКонтекстноеМеню" id="44"/>
+							<ExtendedTooltip name="ФИОРасширеннаяПодсказка" id="45"/>
+						</InputField>
+						<UsualGroup name="Группа3" id="38">
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="39"/>
+							<ChildItems>
+								<InputField name="ДокументУдостоверяющийЛичность" id="4">
+									<DataPath>1/0:ecf8846c-ecb2-48d5-a522-8a23d8e3182b</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>16</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ChoiceButtonRepresentation>ShowInDropList</ChoiceButtonRepresentation>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<InputHint>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Документ удостоверяющий личность</v8:content>
+										</v8:item>
+									</InputHint>
+									<ContextMenu name="ДокументУдостоверяющийЛичностьКонтекстноеМеню" id="5"/>
+									<ExtendedTooltip name="ДокументУдостоверяющийЛичностьРасширеннаяПодсказка" id="6"/>
+								</InputField>
+								<InputField name="НомерДокумента" id="7">
+									<DataPath>1/0:4edd195d-d050-477d-9629-49eadd80786e</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Номер и серия </v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>20</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<InputHint>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Номер и серия </v8:content>
+										</v8:item>
+									</InputHint>
+									<ContextMenu name="НомерДокументаКонтекстноеМеню" id="8"/>
+									<ExtendedTooltip name="НомерДокументаРасширеннаяПодсказка" id="9"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="Группа2" id="36">
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="37"/>
+			<ChildItems>
+				<Page name="ДополнительныеСведения" id="32">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительные сведения</v8:content>
+						</v8:item>
+					</Title>
+					<TitleFont ref="style:NormalTextFont" height="9" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительные сведения</v8:content>
+						</v8:item>
+					</ToolTip>
+					<VerticalSpacing>Single</VerticalSpacing>
+					<BackColor>#FAFAFA</BackColor>
+					<ExtendedTooltip name="ДополнительныеСведенияРасширеннаяПодсказка" id="33"/>
+					<ChildItems>
+						<UsualGroup name="КонтактныеДанные" id="21">
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Контактные данные</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="КонтактныеДанныеРасширеннаяПодсказка" id="22"/>
+							<ChildItems>
+								<InputField name="КонтактныйТелефон" id="10">
+									<DataPath>1/0:a9611d39-425d-4a44-927f-6b9bead9068d</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="КонтактныйТелефонКонтекстноеМеню" id="11"/>
+									<ExtendedTooltip name="КонтактныйТелефонРасширеннаяПодсказка" id="12"/>
+								</InputField>
+								<InputField name="Почта" id="29">
+									<DataPath>1/0:19abffd5-5c80-447f-bf96-1cc3ef918493</DataPath>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ПочтаКонтекстноеМеню" id="30"/>
+									<ExtendedTooltip name="ПочтаРасширеннаяПодсказка" id="31"/>
+								</InputField>
+								<InputField name="АдресРегистрации" id="26">
+									<DataPath>1/0:3ace79ca-bc24-41c6-af45-85bdc4ec616a</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<InputHint>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Адрес регистрации</v8:content>
+										</v8:item>
+									</InputHint>
+									<ContextMenu name="АдресРегистрацииКонтекстноеМеню" id="27"/>
+									<ExtendedTooltip name="АдресРегистрацииРасширеннаяПодсказка" id="28"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<InputField name="Организация" id="13">
+							<DataPath>Объект.Организация</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ChoiceButtonRepresentation>ShowInDropListAndInInputField</ChoiceButtonRepresentation>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ОрганизацияКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="15"/>
+						</InputField>
+						<InputField name="ПричинаПосещения" id="16">
+							<DataPath>1/0:3a0aa860-4087-402a-a001-96cf881de884</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ChoiceButtonRepresentation>ShowInDropListAndInInputField</ChoiceButtonRepresentation>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ПричинаПосещенияКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ПричинаПосещенияРасширеннаяПодсказка" id="18"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Посетители</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
