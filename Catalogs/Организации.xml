@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
-	<Catalog uuid="476c21c2-8582-42fc-a148-98bf474c4d6b">
+	<Catalog uuid="4bb54a10-b560-4ad6-8545-33cb0311d01f">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.Организации" category="Object">
-				<xr:TypeId>ed231907-df93-4110-a3af-2131ac22ed9d</xr:TypeId>
-				<xr:ValueId>6a169eed-205a-4ca0-b942-163e43b286f0</xr:ValueId>
+				<xr:TypeId>370288de-60fe-47e9-8f02-f557a56e6ba1</xr:TypeId>
+				<xr:ValueId>5b8a57f6-0a54-425f-ba26-ce060b25676d</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.Организации" category="Ref">
-				<xr:TypeId>f217423d-5a3b-4d8e-ad31-c8acc48f159c</xr:TypeId>
-				<xr:ValueId>4dd5fe60-476e-412c-9b24-9fa14b0fa253</xr:ValueId>
+				<xr:TypeId>e0729632-5c84-4f4e-af5a-c6292d8c067a</xr:TypeId>
+				<xr:ValueId>9be9a956-2a4f-4928-8df1-e6889749219a</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.Организации" category="Selection">
-				<xr:TypeId>bfcbe2dc-13be-44c6-afbe-002a987762ed</xr:TypeId>
-				<xr:ValueId>efce0531-e29c-41b2-8782-d1480d8020bd</xr:ValueId>
+				<xr:TypeId>e85e313c-edad-4207-9a8d-d7cd225a3c73</xr:TypeId>
+				<xr:ValueId>13767ba3-efd3-4167-99e1-9514eab7bebc</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.Организации" category="List">
-				<xr:TypeId>8447eaf6-4410-4a29-a9b1-0d7600c5be85</xr:TypeId>
-				<xr:ValueId>99421a2e-7fc7-408c-8162-706d07bcf529</xr:ValueId>
+				<xr:TypeId>7b7a1cce-d544-4039-aae4-9e6b353f39c7</xr:TypeId>
+				<xr:ValueId>0da7f9b7-8e61-4c85-9081-60a0d1fbf63f</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.Организации" category="Manager">
-				<xr:TypeId>0f097147-9e92-4743-b319-d7c25629dfc6</xr:TypeId>
-				<xr:ValueId>53c215ad-52b7-46d0-9797-b69b8ff6bb73</xr:ValueId>
+				<xr:TypeId>84652d52-aa5d-4710-b594-4034e93fddef</xr:TypeId>
+				<xr:ValueId>df992f22-0177-4f59-abda-7d14345f842c</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -60,10 +60,10 @@
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm/>
+			<DefaultObjectForm>Catalog.Организации.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
-			<DefaultListForm/>
-			<DefaultChoiceForm/>
+			<DefaultListForm>Catalog.Организации.Form.ФормаСписка</DefaultListForm>
+			<DefaultChoiceForm>Catalog.Организации.Form.ФормаВыбора</DefaultChoiceForm>
 			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryFolderForm/>
@@ -87,7 +87,7 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="7fb40632-219e-431d-8ad8-957ec0e443b8">
+			<Attribute uuid="17aa8314-0dc1-4889-bf2f-167647167879">
 				<Properties>
 					<Name>Адрес</Name>
 					<Synonym>
@@ -131,7 +131,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="58d25965-16ef-4dee-9592-460356df107b">
+			<Attribute uuid="29ebd21d-ee55-45f7-8f4f-4d0e9c6f7394">
 				<Properties>
 					<Name>ИНН</Name>
 					<Synonym>
@@ -159,8 +159,8 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
-					<FillChecking>DontCheck</FillChecking>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>ShowError</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
 					<ChoiceParameters/>
@@ -175,7 +175,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="cf989ea6-99c8-4e66-8ad2-2d8ebb161b8d">
+			<Attribute uuid="8086d459-b516-4076-9a90-f9c40d903c32">
 				<Properties>
 					<Name>КПП</Name>
 					<Synonym>
@@ -203,8 +203,8 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
-					<FillChecking>DontCheck</FillChecking>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>ShowError</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
 					<ChoiceParameters/>
@@ -219,6 +219,9 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+			<Form>ФормаСписка</Form>
+			<Form>ФормаВыбора</Form>
+			<Form>ФормаЭлемента</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
