@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
-	<Catalog uuid="bbd6f4aa-3d28-4ff1-b6f3-4f99ca234b45">
+	<Catalog uuid="112b33f0-b892-4d2e-8e0e-ade7104841d3">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.СтатусыПропусков" category="Object">
-				<xr:TypeId>f7768793-ae11-4048-9b39-1ede8c37d773</xr:TypeId>
-				<xr:ValueId>28a2d0f7-d0ee-42d1-95c6-df1a9e0bf84b</xr:ValueId>
+				<xr:TypeId>7a794ba5-156d-4264-ae16-2708260fd9f6</xr:TypeId>
+				<xr:ValueId>a0516321-a03e-4fb1-bf42-2048108315c5</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.СтатусыПропусков" category="Ref">
-				<xr:TypeId>9edc642e-0996-4c0f-af13-ff23990f5c07</xr:TypeId>
-				<xr:ValueId>51a2c5e9-4545-4a4a-9ba0-3a8604d2cee0</xr:ValueId>
+				<xr:TypeId>810c7f6a-4cca-4738-aebf-722697ed17c9</xr:TypeId>
+				<xr:ValueId>b1a61e8d-1efa-46f1-b91f-2ec656831346</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.СтатусыПропусков" category="Selection">
-				<xr:TypeId>47eb1651-93bc-412a-ac8d-1f837f356605</xr:TypeId>
-				<xr:ValueId>f17888a2-a618-405f-8f6b-d2e9ad364a52</xr:ValueId>
+				<xr:TypeId>ce22db55-0a82-4b29-886e-06b1b6150de5</xr:TypeId>
+				<xr:ValueId>866e970c-74b5-4f5a-9290-a0bda8de67eb</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.СтатусыПропусков" category="List">
-				<xr:TypeId>e7db8cd9-cfbc-46d8-873b-8d7f098187fa</xr:TypeId>
-				<xr:ValueId>99db5bf0-8a5f-4e71-9da2-d8dc0b238cd5</xr:ValueId>
+				<xr:TypeId>c75a9cd3-7e64-48c4-b3d3-0e6a1a5f7321</xr:TypeId>
+				<xr:ValueId>8f7e3a2a-1cd7-4fb4-b548-714e39cdefd4</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.СтатусыПропусков" category="Manager">
-				<xr:TypeId>d3313a5f-b7a9-4fd3-b46e-97b87a45d1f6</xr:TypeId>
-				<xr:ValueId>dac63a72-3f3c-4fc2-ab2c-3fad2efca87e</xr:ValueId>
+				<xr:TypeId>4eb9861c-cad5-474a-88fb-16ea7b3542aa</xr:TypeId>
+				<xr:ValueId>fd3eaa20-d5d4-49fe-b7e2-8c96ad8178d5</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -62,8 +62,8 @@
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
 			<DefaultObjectForm/>
 			<DefaultFolderForm/>
-			<DefaultListForm/>
-			<DefaultChoiceForm/>
+			<DefaultListForm>Catalog.СтатусыПропусков.Form.ФормаСписка</DefaultListForm>
+			<DefaultChoiceForm>Catalog.СтатусыПропусков.Form.ФормаВыбора</DefaultChoiceForm>
 			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryFolderForm/>
@@ -86,6 +86,9 @@
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Form>ФормаСписка</Form>
+			<Form>ФормаВыбора</Form>
+		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
