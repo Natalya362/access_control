@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
-	<Catalog uuid="d4291278-4795-45e0-8a72-35a7f955ebfb">
+	<Catalog uuid="7a443ee9-00c7-47ef-81c1-3750eebe253b">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.РолиИсполнителей" category="Object">
-				<xr:TypeId>cf120d6b-2e97-451d-a0b9-507eb71f4ffe</xr:TypeId>
-				<xr:ValueId>b78a5c74-600c-4875-84ab-baa69438b490</xr:ValueId>
+				<xr:TypeId>0ba64163-197f-4789-b101-028a908642ac</xr:TypeId>
+				<xr:ValueId>86824450-38ad-4052-8e88-3704c54f9396</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.РолиИсполнителей" category="Ref">
-				<xr:TypeId>d2d015ad-c259-49d6-8a0d-e18c54cf5926</xr:TypeId>
-				<xr:ValueId>68ffed68-edd0-4988-a7a5-ef03c1010968</xr:ValueId>
+				<xr:TypeId>b23c3b68-6414-4ebe-81aa-1ad040bc4ab6</xr:TypeId>
+				<xr:ValueId>17c34fd0-0469-49ae-95a9-278115d5cb1d</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.РолиИсполнителей" category="Selection">
-				<xr:TypeId>76ee3261-0722-4ca6-a044-972b76d75432</xr:TypeId>
-				<xr:ValueId>12cfee41-a4da-4941-bb47-382e3709746d</xr:ValueId>
+				<xr:TypeId>8440ef35-493d-4d90-b1a1-2cabec09a964</xr:TypeId>
+				<xr:ValueId>4eb22f17-e127-4b44-a23b-2f7e2f9d9c0c</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.РолиИсполнителей" category="List">
-				<xr:TypeId>56323527-b022-4f35-9e69-d70d71fc2e12</xr:TypeId>
-				<xr:ValueId>55ca2faf-0681-42bb-b379-67b1a0ce9382</xr:ValueId>
+				<xr:TypeId>3df7cd39-dbf2-4567-82ba-4df013af750b</xr:TypeId>
+				<xr:ValueId>929340b6-6539-45b1-b978-c8fd3f844086</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.РолиИсполнителей" category="Manager">
-				<xr:TypeId>eb5659c6-b556-4bc3-9a91-92c672eb6ba0</xr:TypeId>
-				<xr:ValueId>390caaf4-239e-44d8-802d-e688921b9342</xr:ValueId>
+				<xr:TypeId>7cdc2afc-b064-4562-9714-a23f036f5174</xr:TypeId>
+				<xr:ValueId>86329a62-a524-4bed-8b4c-7d5ae9611b86</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -41,7 +41,7 @@
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
 			<CodeLength>9</CodeLength>
-			<DescriptionLength>25</DescriptionLength>
+			<DescriptionLength>150</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
@@ -60,9 +60,9 @@
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm/>
+			<DefaultObjectForm>Catalog.РолиИсполнителей.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
-			<DefaultListForm/>
+			<DefaultListForm>Catalog.РолиИсполнителей.Form.ФормаСписка</DefaultListForm>
 			<DefaultChoiceForm/>
 			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -87,7 +87,7 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="2891c107-63ea-44cf-a0ff-c38ff7743e2a">
+			<Attribute uuid="e5c0b847-5f4b-4f18-9111-445526cff7eb">
 				<Properties>
 					<Name>Исполнитель</Name>
 					<Synonym>
@@ -127,7 +127,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="3ccb42b6-1290-4559-8c5b-ae4f5e7a71f0">
+			<Attribute uuid="fd130da9-59b0-4876-8d5d-9f5ece87e716">
 				<Properties>
 					<Name>Сотрудник</Name>
 					<Synonym>
@@ -167,6 +167,8 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+			<Form>ФормаСписка</Form>
+			<Form>ФормаЭлемента</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
