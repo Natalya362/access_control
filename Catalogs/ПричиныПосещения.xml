@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
-	<Catalog uuid="101b513c-7b56-4d36-9c30-320029d7a223">
+	<Catalog uuid="c79d5d70-ce45-4180-bd2e-4722641d0730">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.ПричиныПосещения" category="Object">
-				<xr:TypeId>8fc0827c-6098-4894-94a7-26d7925f160d</xr:TypeId>
-				<xr:ValueId>79dd5b12-d0c1-40d5-a715-a3e83577944a</xr:ValueId>
+				<xr:TypeId>9c33d102-a326-4285-b996-c17f9e77e312</xr:TypeId>
+				<xr:ValueId>16c8410f-6262-42d3-9005-b7c4d9e8e0a7</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.ПричиныПосещения" category="Ref">
-				<xr:TypeId>2ab1dc84-f414-4321-ad25-73b8481d0cc2</xr:TypeId>
-				<xr:ValueId>f27fd520-9336-4a29-948d-a1fb3dcbc67d</xr:ValueId>
+				<xr:TypeId>7b540106-414d-4f60-a9ee-7a261158ae66</xr:TypeId>
+				<xr:ValueId>395910e4-7a7d-4f2d-9212-782fa5f938df</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.ПричиныПосещения" category="Selection">
-				<xr:TypeId>3a31f1c0-18e3-4022-be9e-1b0b050a0ed8</xr:TypeId>
-				<xr:ValueId>2c710ae4-61eb-4220-b808-42e2312d6f4d</xr:ValueId>
+				<xr:TypeId>50efff6f-b12d-4712-935e-f04ed8389279</xr:TypeId>
+				<xr:ValueId>025ca195-4abc-4213-b555-b1bb122bc6bf</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.ПричиныПосещения" category="List">
-				<xr:TypeId>5c397c4c-d7f5-4def-bc7a-e5075b848504</xr:TypeId>
-				<xr:ValueId>26c56098-2eaf-4d55-9ba5-91128c8e61a0</xr:ValueId>
+				<xr:TypeId>1a7a1b84-8af6-44dd-b5b1-56345b1e5b23</xr:TypeId>
+				<xr:ValueId>6ec1082e-1556-47ed-8de1-bbffd797d34a</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.ПричиныПосещения" category="Manager">
-				<xr:TypeId>b17c74c3-6a9f-4124-967a-aa43ca53688f</xr:TypeId>
-				<xr:ValueId>3c34fc94-6800-4fe3-9fa9-b47421df2db9</xr:ValueId>
+				<xr:TypeId>ae924590-96c3-4e3f-9a50-5c21f2bf5ebe</xr:TypeId>
+				<xr:ValueId>d382ccfa-34ee-43b6-8d98-8098c1ce66e4</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -62,8 +62,8 @@
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
 			<DefaultObjectForm/>
 			<DefaultFolderForm/>
-			<DefaultListForm/>
-			<DefaultChoiceForm/>
+			<DefaultListForm>Catalog.ПричиныПосещения.Form.ФормаСписка</DefaultListForm>
+			<DefaultChoiceForm>Catalog.ПричиныПосещения.Form.ФормаВыбора</DefaultChoiceForm>
 			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryFolderForm/>
@@ -86,6 +86,9 @@
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Form>ФормаСписка</Form>
+			<Form>ФормаВыбора</Form>
+		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
