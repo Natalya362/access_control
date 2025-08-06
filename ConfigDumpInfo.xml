@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.19">
+	<ConfigVersions>
+		<Metadata name="Configuration.Конфигурация" id="c9b922f1-c267-4327-b880-c94d13117df5" configVersion="246fab22cfb1024eb03b0667dbfb07c400000000"/>
+		<Metadata name="Configuration.Конфигурация.ManagedApplicationModule" id="5062079f-c0fb-481c-a5c8-5c3cc6ad7a99.6" configVersion="2cffbdd488d38f49823628e1cca25f4d00000000"/>
+		<Metadata name="Language.Русский" id="292e3744-edd9-4aea-9a72-7808d42548c6" configVersion="de609d2d43c19a4da3505b95bc3b69fc00000000"/>
+		<Metadata name="Subsystem.Администрирование" id="3eeee4a8-2f59-4f83-826a-f86765f29492" configVersion="147563aee66da44ab56773152cbdfc5e00000000"/>
+		<Metadata name="Subsystem.КонтрольДоступа" id="72233954-c50c-4efc-93bd-18b23452ecee" configVersion="b3ed5361a666904b870c75ccc7997afb00000000"/>
+		<Metadata name="Subsystem.Отчетность" id="1ebdb5e2-d3f8-47c5-8a42-831b2e9c6d43" configVersion="ff07c0b28f20da4ca7e5c57e05157b1400000000"/>
+		<Metadata name="Subsystem.УправлениеПропусками" id="e226dbfd-eacb-49ee-a8a2-ee66fb350035" configVersion="f2759772b3450d408b9f253b701bafbc00000000"/>
+		<Metadata name="Subsystem.УправлениеТС" id="2240aef2-6069-4dc8-ba10-42a11c5f3783" configVersion="6ae535bd823fd64f8c007cf8223fb23c00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
