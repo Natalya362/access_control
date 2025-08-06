@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
-	<Catalog uuid="a46821b1-807b-4d72-a4b9-b8820c41b91a">
+	<Catalog uuid="945e9476-df8b-435f-a740-60c823715dba">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.ЗоныДоступа" category="Object">
-				<xr:TypeId>e2487d8c-75eb-4c5c-85cb-a56cde382911</xr:TypeId>
-				<xr:ValueId>650e600f-cdc0-483f-9302-286eb7264df9</xr:ValueId>
+				<xr:TypeId>81e507ff-6e13-42c8-8f5b-ef0d1cd637f4</xr:TypeId>
+				<xr:ValueId>cb0ac8e7-4abb-4da5-9341-9c35c797f23f</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.ЗоныДоступа" category="Ref">
-				<xr:TypeId>167647a6-39c3-4020-a284-6ebfef09709b</xr:TypeId>
-				<xr:ValueId>8de206c3-c9f2-4878-af59-e1187fde78be</xr:ValueId>
+				<xr:TypeId>5301d1d8-fb55-4e10-9c7d-894c79df95da</xr:TypeId>
+				<xr:ValueId>1f1b1582-9a49-4260-af8b-147a78f4c9a8</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.ЗоныДоступа" category="Selection">
-				<xr:TypeId>5a05fb4f-3df4-47bf-8481-298158e8faf7</xr:TypeId>
-				<xr:ValueId>13d621e1-c2da-4af9-a653-1f8b1d10c49f</xr:ValueId>
+				<xr:TypeId>39515149-8368-4579-be2c-1d4ba93835ba</xr:TypeId>
+				<xr:ValueId>1f012d7a-2cde-4d60-8fbf-5b194c5731a9</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.ЗоныДоступа" category="List">
-				<xr:TypeId>c80fd3de-847e-4f15-a277-b8a4207ca160</xr:TypeId>
-				<xr:ValueId>6944f8ee-b799-4cc7-b70c-3e1a78a81a31</xr:ValueId>
+				<xr:TypeId>727e80ee-1a29-4e27-be8a-2beff0a3fda6</xr:TypeId>
+				<xr:ValueId>1e72d44b-f1cd-4df4-90f8-59127e97f750</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.ЗоныДоступа" category="Manager">
-				<xr:TypeId>f46b6679-caa9-4436-817f-80f98e66d4d0</xr:TypeId>
-				<xr:ValueId>f20e9271-a251-413e-83ac-61fb984ed29d</xr:ValueId>
+				<xr:TypeId>cffe7262-bc30-43a6-a185-6a3a4f280743</xr:TypeId>
+				<xr:ValueId>56a9199f-183c-4d9b-bb38-8aeb6cae6c2f</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -33,7 +33,7 @@
 			</Synonym>
 			<Comment/>
 			<Hierarchical>false</Hierarchical>
-			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
+			<HierarchyType>HierarchyOfItems</HierarchyType>
 			<LimitLevelCount>false</LimitLevelCount>
 			<LevelCount>2</LevelCount>
 			<FoldersOnTop>true</FoldersOnTop>
@@ -41,7 +41,7 @@
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
 			<CodeLength>9</CodeLength>
-			<DescriptionLength>25</DescriptionLength>
+			<DescriptionLength>60</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
@@ -62,8 +62,8 @@
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
 			<DefaultObjectForm/>
 			<DefaultFolderForm/>
-			<DefaultListForm/>
-			<DefaultChoiceForm/>
+			<DefaultListForm>Catalog.ЗоныДоступа.Form.ФормаСписка</DefaultListForm>
+			<DefaultChoiceForm>Catalog.ЗоныДоступа.Form.ФормаВыбора</DefaultChoiceForm>
 			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryFolderForm/>
@@ -86,6 +86,9 @@
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Form>ФормаВыбора</Form>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
