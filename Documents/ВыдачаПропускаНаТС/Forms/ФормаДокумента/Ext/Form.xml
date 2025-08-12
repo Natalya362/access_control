@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<CheckBoxField name="ЗаявкаРежимноеПомещение" id="44">
+			<DataPath>Объект.Заявка.РежимноеПомещение</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ЗаявкаРежимноеПомещениеКонтекстноеМеню" id="45"/>
+			<ExtendedTooltip name="ЗаявкаРежимноеПомещениеРасширеннаяПодсказка" id="46"/>
+		</CheckBoxField>
+		<UsualGroup name="Группа2" id="42">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="43"/>
+			<ChildItems>
+				<InputField name="Дата" id="1">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<EditFormat>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧФ=Ч; ДФ=dd.MM.yyyy</v8:content>
+						</v8:item>
+					</EditFormat>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Номер" id="53">
+					<DataPath>Объект.Number</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НомерКонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="55"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Заявка" id="4">
+			<DataPath>Объект.Заявка</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ЗаявкаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ЗаявкаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Статус" id="47">
+			<DataPath>Объект.Статус</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СтатусКонтекстноеМеню" id="48"/>
+			<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="49"/>
+		</InputField>
+		<InputField name="Инициатор" id="50">
+			<DataPath>Объект.Инициатор</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ответственный</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ИнициаторКонтекстноеМеню" id="51"/>
+			<ExtendedTooltip name="ИнициаторРасширеннаяПодсказка" id="52"/>
+		</InputField>
+		<InputField name="ФизическоеЛицо" id="56">
+			<DataPath>Объект.ФизическоеЛицо</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Посетитель</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ФизическоеЛицоКонтекстноеМеню" id="57"/>
+			<ExtendedTooltip name="ФизическоеЛицоРасширеннаяПодсказка" id="58"/>
+		</InputField>
+		<InputField name="ТранспортноеСредство" id="7">
+			<DataPath>Объект.ТранспортноеСредство</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ТранспортноеСредствоКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ТранспортноеСредствоРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="ТипПропуска" id="13">
+			<DataPath>Объект.ТипПропуска</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ТипПропускаКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ТипПропускаРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="ЗонаДоступа" id="22">
+			<DataPath>Объект.ЗонаДоступа</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ЗонаДоступаКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ЗонаДоступаРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<InputField name="ТочкаКонтроля" id="25">
+			<DataPath>Объект.ТочкаКонтроля</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ТочкаКонтроляКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ТочкаКонтроляРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="ПричинаПосещения" id="37">
+			<DataPath>Объект.ПричинаПосещения</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПричинаПосещенияКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="ПричинаПосещенияРасширеннаяПодсказка" id="39"/>
+		</InputField>
+		<UsualGroup name="Группа1" id="40">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="41"/>
+			<ChildItems>
+				<InputField name="ДатаВыдачи" id="16">
+					<DataPath>Объект.ДатаВыдачи</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДатаВыдачиКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="ДатаВыдачиРасширеннаяПодсказка" id="18"/>
+				</InputField>
+				<InputField name="ДатаОкончания" id="19">
+					<DataPath>Объект.ДатаОкончания</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДатаОкончанияКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="ДатаОкончанияРасширеннаяПодсказка" id="21"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ВыдачаПропускаНаТС</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>
