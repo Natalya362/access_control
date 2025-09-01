@@ -250,6 +250,29 @@
 			<Subsystem>КонтрольДоступа</Subsystem>
 			<Subsystem>Отчетность</Subsystem>
 			<Subsystem>Администрирование</Subsystem>
+			<Role>Администратор</Role>
+			<Role>НачальникБюро</Role>
+			<Role>СотрудникБюро</Role>
+			<Role>ДиректорДепартамента</Role>
+			<Role>Охрана</Role>
+			<Constant>МаксимальныйСрокДействия</Constant>
+			<Constant>ЗначениеПоУмолчанюСерьезностиИнцидента</Constant>
+			<Catalog>Должности</Catalog>
+			<Catalog>ЗоныДоступа</Catalog>
+			<Catalog>МаркиТС</Catalog>
+			<Catalog>Организации</Catalog>
+			<Catalog>Подразделения</Catalog>
+			<Catalog>Посетители</Catalog>
+			<Catalog>ПричиныПосещения</Catalog>
+			<Catalog>Сотрудники</Catalog>
+			<Catalog>СтатусыПропусков</Catalog>
+			<Catalog>ТочкиКонтроля</Catalog>
+			<Catalog>ТипыПропусков</Catalog>
+			<Catalog>ТранспортныеСредства</Catalog>
+			<Catalog>ФизическиеЛица</Catalog>
+			<Catalog>РолиИсполнителей</Catalog>
+			<Catalog>Пользователи</Catalog>
+			<Catalog>Встречи</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

@@ -1,11 +1,93 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.19">
 	<ConfigVersions>
-		<Metadata name="Configuration.Конфигурация" id="c9b922f1-c267-4327-b880-c94d13117df5" configVersion="246fab22cfb1024eb03b0667dbfb07c400000000"/>
+		<Metadata name="Catalog.Встречи" id="e4d25f4c-ad57-4901-9cad-65a3148c9435" configVersion="6ab19e43e3c1cf40bbd893ac1028c13200000000">
+			<Metadata name="Catalog.Встречи.Attribute.Описание" id="1a73d1fd-cad5-4f02-8caf-83678e681d02"/>
+			<Metadata name="Catalog.Встречи.Attribute.Окончание" id="bf45513f-3d58-4ea9-a7ec-fbc0063b78e2"/>
+			<Metadata name="Catalog.Встречи.Attribute.Начало" id="ed7157cb-5a3a-4480-8950-eea5afc9f6a2"/>
+		</Metadata>
+		<Metadata name="Catalog.Должности" id="fc9a8f6c-0b79-4aa6-b396-65e0a3be723a" configVersion="834308c56de80549b3f557c7a49a037b00000000">
+			<Metadata name="Catalog.Должности.Attribute.Должность" id="72a8b5de-2dbd-418d-8b2b-ef53a4c81dac"/>
+		</Metadata>
+		<Metadata name="Catalog.ЗоныДоступа" id="a46821b1-807b-4d72-a4b9-b8820c41b91a" configVersion="39558d08632dce45b12c103790a07a8f00000000"/>
+		<Metadata name="Catalog.МаркиТС" id="a1cd8a55-8a8b-4410-879b-8f61d51cb940" configVersion="b7028affb5392d489a3caf4bd644566600000000"/>
+		<Metadata name="Catalog.Организации" id="476c21c2-8582-42fc-a148-98bf474c4d6b" configVersion="5e1d33908e4ee84caf330529bcb8265a00000000">
+			<Metadata name="Catalog.Организации.Attribute.ИНН" id="58d25965-16ef-4dee-9592-460356df107b"/>
+			<Metadata name="Catalog.Организации.Attribute.Адрес" id="7fb40632-219e-431d-8ad8-957ec0e443b8"/>
+			<Metadata name="Catalog.Организации.Attribute.КПП" id="cf989ea6-99c8-4e66-8ad2-2d8ebb161b8d"/>
+		</Metadata>
+		<Metadata name="Catalog.Подразделения" id="f3d4e6c2-3f9e-4db7-af11-6d83eb2f9d6b" configVersion="12775f0810feab489da2eb5b5f5472f800000000">
+			<Metadata name="Catalog.Подразделения.Attribute.ТипПодразделения" id="1f714332-4c9f-4f62-9979-d3ac774e0b5d"/>
+			<Metadata name="Catalog.Подразделения.Attribute.Адрес" id="21d4c864-c830-4feb-bb7c-55e6fddf6b86"/>
+			<Metadata name="Catalog.Подразделения.Attribute.Активно" id="42e98f19-fbfc-4c02-a7fd-90b69fa4e978"/>
+			<Metadata name="Catalog.Подразделения.Attribute.ТипПомещения" id="7a464738-6545-4a66-93ff-a2728c34a9d2"/>
+			<Metadata name="Catalog.Подразделения.Attribute.ОтветственноеЛицо" id="a91dcac6-0b14-4cad-a2f3-f0e0eeb7b5ec"/>
+			<Metadata name="Catalog.Подразделения.Attribute.Почта" id="c76ea936-b268-493f-a015-0c50db4608cf"/>
+			<Metadata name="Catalog.Подразделения.Attribute.КонтактныйТелефон" id="dc7c23a7-31c7-48f7-9262-c4cf4720af3e"/>
+		</Metadata>
+		<Metadata name="Catalog.Пользователи" id="dedaf164-ec3f-43ee-9b5b-541a2960da38" configVersion="3b69005a247de5459d08ba7396d768ae00000000">
+			<Metadata name="Catalog.Пользователи.Attribute.ИдентификаторПользователяИБ" id="5ec09abd-99cd-43c5-99a5-d20a9b22d6bc"/>
+			<Metadata name="Catalog.Пользователи.Attribute.РольИсполнителя" id="c5b5df37-62e7-41d0-b493-3cad5075e887"/>
+		</Metadata>
+		<Metadata name="Catalog.Посетители" id="49fc7d56-e425-433f-8e2e-60df74dd037c" configVersion="590f33bca25b6d448fc3b54797b133ce00000000">
+			<Metadata name="Catalog.Посетители.Attribute.ФизическоеЛицо" id="03f826bf-1e6d-4c61-b3ad-2531fe31a0ed"/>
+			<Metadata name="Catalog.Посетители.Attribute.Организация" id="b66bf95a-c992-4932-9329-d3bcb00dda92"/>
+		</Metadata>
+		<Metadata name="Catalog.ПричиныПосещения" id="101b513c-7b56-4d36-9c30-320029d7a223" configVersion="d892a4cb2074dd409c699c1826411aae00000000"/>
+		<Metadata name="Catalog.РолиИсполнителей" id="d4291278-4795-45e0-8a72-35a7f955ebfb" configVersion="237bf8926c2eee4da58aed839477032900000000">
+			<Metadata name="Catalog.РолиИсполнителей.Attribute.Исполнитель" id="2891c107-63ea-44cf-a0ff-c38ff7743e2a"/>
+			<Metadata name="Catalog.РолиИсполнителей.Attribute.Сотрудник" id="3ccb42b6-1290-4559-8c5b-ae4f5e7a71f0"/>
+		</Metadata>
+		<Metadata name="Catalog.Сотрудники" id="84fc863b-14a2-415b-be20-9ea3892b32bf" configVersion="f1737ca055cc854283dada0029bc0a0400000000">
+			<Metadata name="Catalog.Сотрудники.Attribute.Почта" id="0ce10e9c-cfc7-4364-a860-5ac987a158fe"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.ТабельныйНомер" id="1ee3dba0-4aa5-4a9a-8c22-5a14be2f94f0"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.ДобавочныйНомер" id="2289b164-9973-4dcf-a110-8f09a88d4958"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.КонтактныйТелефон" id="4a3c5118-bf6b-4a32-ae49-2a54e698fd72"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.ФИО" id="5cca0e2e-793c-4311-8d31-87362edd5b5c"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Отдел" id="61e3995e-bb97-4cbc-a74e-534330c4cabf"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Подразделение" id="832091cb-2f67-4d02-908e-4522579f4282"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.Должность" id="89dcdb85-f606-4a66-8d66-4accce1e917d"/>
+			<Metadata name="Catalog.Сотрудники.Attribute.ОтветственноеЛицо" id="9a5b79af-102b-40f3-a6cf-738ad659731f"/>
+		</Metadata>
+		<Metadata name="Catalog.СтатусыПропусков" id="bbd6f4aa-3d28-4ff1-b6f3-4f99ca234b45" configVersion="90af69edd499c443bd9753cf476ab3e600000000"/>
+		<Metadata name="Catalog.ТипыПропусков" id="908597f3-c0ae-42ec-8a96-393fcf52f44d" configVersion="b4ea8865d8ccc448adc5ca779cab1d8700000000"/>
+		<Metadata name="Catalog.ТочкиКонтроля" id="f33a1826-2662-476e-be67-6c052d81f332" configVersion="6cabb4d311bbfc46bd6d7b58402f2db600000000"/>
+		<Metadata name="Catalog.ТранспортныеСредства" id="c8bbb518-9058-4b73-b691-91ca5f902f8d" configVersion="16c8bd83aa0a164c8406b3217755b4f000000000">
+			<Metadata name="Catalog.ТранспортныеСредства.Attribute.Марка" id="09df909f-ca50-44ad-aed6-8313c2ffadea"/>
+			<Metadata name="Catalog.ТранспортныеСредства.Attribute.Модель" id="284f9b8e-f8c4-4887-8699-0c75075ed002"/>
+			<Metadata name="Catalog.ТранспортныеСредства.Attribute.ОтветственноеЛицо" id="5bb18f04-3203-428f-af88-7b6a8f6b5039"/>
+			<Metadata name="Catalog.ТранспортныеСредства.Attribute.НомерТС" id="8e1d76de-c3e5-4b7d-8336-780580d9201a"/>
+			<Metadata name="Catalog.ТранспортныеСредства.Attribute.ТипТС" id="bc8b8ea5-9b99-4c98-b82d-bff9e08b4f90"/>
+		</Metadata>
+		<Metadata name="Catalog.ФизическиеЛица" id="91edcc76-72fc-4b49-b3a4-22977dc1653e" configVersion="53a7e94d500ac6439d5e5f42231c84ff00000000">
+			<Metadata name="Catalog.ФизическиеЛица.Attribute.КонтактныйТелефон" id="04e6a701-cb6a-4c3f-80a5-dca67d618c6b"/>
+			<Metadata name="Catalog.ФизическиеЛица.Attribute.ФИО" id="1632fbb1-2281-4445-85d4-3b57bd02be16"/>
+			<Metadata name="Catalog.ФизическиеЛица.Attribute.Адрес" id="1c246801-f63a-410e-9398-b867142ee34b"/>
+			<Metadata name="Catalog.ФизическиеЛица.Attribute.НомерДокумента" id="39ea9716-c27b-40a8-88a1-0710db149476"/>
+			<Metadata name="Catalog.ФизическиеЛица.Attribute.ДокументУдостоверяющийЛичность" id="3ed569b7-e7ef-4748-af49-603c27aaef58"/>
+			<Metadata name="Catalog.ФизическиеЛица.Attribute.Пол" id="67312520-084b-4d7b-857f-971fe7c8b62d"/>
+			<Metadata name="Catalog.ФизическиеЛица.Attribute.ФизическоеЛицо" id="a5fbe375-0601-4d68-b749-f6d5e1d8d776"/>
+			<Metadata name="Catalog.ФизическиеЛица.Attribute.Почта" id="b3e6fefe-27b9-478a-80c1-99fa28a8cbbd"/>
+			<Metadata name="Catalog.ФизическиеЛица.Attribute.ДатаРождения" id="d515e6a8-1008-45e9-8867-b0f4595c7c51"/>
+		</Metadata>
+		<Metadata name="Configuration.Конфигурация" id="c9b922f1-c267-4327-b880-c94d13117df5" configVersion="f992f3dd36c9914eb511cdf66b397d9e00000000"/>
 		<Metadata name="Configuration.Конфигурация.ManagedApplicationModule" id="5062079f-c0fb-481c-a5c8-5c3cc6ad7a99.6" configVersion="2cffbdd488d38f49823628e1cca25f4d00000000"/>
+		<Metadata name="Configuration.Конфигурация.SessionModule" id="5062079f-c0fb-481c-a5c8-5c3cc6ad7a99.7" configVersion="9b6f266012abe345965173144f676a0e00000000"/>
+		<Metadata name="Constant.ЗначениеПоУмолчанюСерьезностиИнцидента" id="fc375ca0-b10c-4382-816a-2a67dd7a2127" configVersion="05ba215667c2fa4aab775a58a389fdf900000000"/>
+		<Metadata name="Constant.МаксимальныйСрокДействия" id="29f8cf9d-2f08-4855-8537-dafc891fb728" configVersion="56c01f890f22904caadfc35b0129b88d00000000"/>
 		<Metadata name="Language.Русский" id="292e3744-edd9-4aea-9a72-7808d42548c6" configVersion="de609d2d43c19a4da3505b95bc3b69fc00000000"/>
-		<Metadata name="Subsystem.Администрирование" id="3eeee4a8-2f59-4f83-826a-f86765f29492" configVersion="147563aee66da44ab56773152cbdfc5e00000000"/>
-		<Metadata name="Subsystem.КонтрольДоступа" id="72233954-c50c-4efc-93bd-18b23452ecee" configVersion="b3ed5361a666904b870c75ccc7997afb00000000"/>
+		<Metadata name="Role.Администратор" id="a5d72c13-35bc-4fb7-9061-1b241fc49e83" configVersion="1e08debaf8e6cc4db9e4c5f5e824aabe00000000"/>
+		<Metadata name="Role.Администратор.Rights" id="a5d72c13-35bc-4fb7-9061-1b241fc49e83.0" configVersion="7533c8014a1c4245b2b68d0b8f2fa16f00000000"/>
+		<Metadata name="Role.ДиректорДепартамента" id="49693595-215b-4924-8d45-a18f21144af6" configVersion="a0d21b0fdec02443954a65890f6832af00000000"/>
+		<Metadata name="Role.ДиректорДепартамента.Rights" id="49693595-215b-4924-8d45-a18f21144af6.0" configVersion="02bc057d5b09e1438cc27f8978404ceb00000000"/>
+		<Metadata name="Role.НачальникБюро" id="70112a96-8a4b-4a1c-98c5-a4a63e745f42" configVersion="1a14effbf949944f87e8ae726eb2c34400000000"/>
+		<Metadata name="Role.НачальникБюро.Rights" id="70112a96-8a4b-4a1c-98c5-a4a63e745f42.0" configVersion="9110f455bf13c446bb5fd5b868e4950000000000"/>
+		<Metadata name="Role.Охрана" id="c6f7092c-3e86-4f6b-a837-c7184329db0f" configVersion="0f1f155e05c3544d9be82afed97305af00000000"/>
+		<Metadata name="Role.Охрана.Rights" id="c6f7092c-3e86-4f6b-a837-c7184329db0f.0" configVersion="0ae82a3db8e7a9469ceaaf90ce52695400000000"/>
+		<Metadata name="Role.СотрудникБюро" id="15606b32-a9c1-421d-a7f2-4b891036aa93" configVersion="102f815e74d7f84288571e7e5c880fc400000000"/>
+		<Metadata name="Role.СотрудникБюро.Rights" id="15606b32-a9c1-421d-a7f2-4b891036aa93.0" configVersion="b1ba0dba374d6747997a924a6e99b20100000000"/>
+		<Metadata name="Subsystem.Администрирование" id="3eeee4a8-2f59-4f83-826a-f86765f29492" configVersion="797017c96efb614a917c2eb45af8746700000000"/>
+		<Metadata name="Subsystem.КонтрольДоступа" id="72233954-c50c-4efc-93bd-18b23452ecee" configVersion="c925a4cf788bd642a7cabb02e7cc117700000000"/>
 		<Metadata name="Subsystem.Отчетность" id="1ebdb5e2-d3f8-47c5-8a42-831b2e9c6d43" configVersion="ff07c0b28f20da4ca7e5c57e05157b1400000000"/>
 		<Metadata name="Subsystem.УправлениеПропусками" id="e226dbfd-eacb-49ee-a8a2-ee66fb350035" configVersion="f2759772b3450d408b9f253b701bafbc00000000"/>
 		<Metadata name="Subsystem.УправлениеТС" id="2240aef2-6069-4dc8-ba10-42a11c5f3783" configVersion="6ae535bd823fd64f8c007cf8223fb23c00000000"/>
