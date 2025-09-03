@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<CommandsVisibility>
+		<Command name="Document.ЗаявкаНаПропуск.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">true</xr:Value>
+				<xr:Value name="Role.НачальникБюро">true</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">true</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">true</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Document.ВыдачаПропуска.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">true</xr:Value>
+				<xr:Value name="Role.НачальникБюро">true</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">true</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">true</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">true</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Document.РегистрацияДвижения.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">true</xr:Value>
+				<xr:Value name="Role.НачальникБюро">true</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">true</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">true</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Document.АннулированиеПропуска.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Администратор">true</xr:Value>
+				<xr:Value name="Role.НачальникБюро">true</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">true</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">true</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">true</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Подразделения.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+				<xr:Value name="Role.НачальникБюро">true</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">true</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">true</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ФизическиеЛица.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">true</xr:Value>
+				<xr:Value name="Role.Администратор">true</xr:Value>
+				<xr:Value name="Role.НачальникБюро">true</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">true</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">true</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Посетители.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+				<xr:Value name="Role.Администратор">true</xr:Value>
+				<xr:Value name="Role.НачальникБюро">true</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">true</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">true</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Организации.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+				<xr:Value name="Role.Администратор">true</xr:Value>
+				<xr:Value name="Role.НачальникБюро">true</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">true</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">true</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ЗоныДоступа.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+				<xr:Value name="Role.НачальникБюро">false</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">false</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.МаркиТС.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+				<xr:Value name="Role.НачальникБюро">false</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">false</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">false</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.СтатусыПропусков.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.СотрудникБюро">false</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">false</xr:Value>
+				<xr:Value name="Role.НачальникБюро">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ТипыПропусков.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.СотрудникБюро">false</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+				<xr:Value name="Role.НачальникБюро">false</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="AccumulationRegister.ДвиженияДоступа.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Администратор">true</xr:Value>
+				<xr:Value name="Role.НачальникБюро">true</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">true</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">true</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ТранспортныеСредства.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.НачальникБюро">false</xr:Value>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">false</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">false</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Document.ЗаявкаНаПропуск.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">true</xr:Value>
+				<xr:Value name="Role.НачальникБюро">true</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">true</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Document.ВыдачаПропуска.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">true</xr:Value>
+				<xr:Value name="Role.НачальникБюро">true</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">true</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Document.РегистрацияДвижения.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">true</xr:Value>
+				<xr:Value name="Role.НачальникБюро">true</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">true</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">true</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Document.АннулированиеПропуска.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">true</xr:Value>
+				<xr:Value name="Role.НачальникБюро">true</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">true</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ЗоныДоступа.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.НачальникБюро">false</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">false</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">false</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.МаркиТС.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.НачальникБюро">false</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">false</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">false</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Организации.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.НачальникБюро">false</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">false</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">false</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Подразделения.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.НачальникБюро">false</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">false</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">false</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Подразделения.StandardCommand.CreateFolder">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.НачальникБюро">false</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">false</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">false</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Посетители.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.НачальникБюро">false</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">false</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">false</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.СтатусыПропусков.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.НачальникБюро">false</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">false</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">false</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ТипыПропусков.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.НачальникБюро">false</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">false</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">false</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ТранспортныеСредства.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.НачальникБюро">false</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">false</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">false</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ТранспортныеСредства.StandardCommand.CreateFolder">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.НачальникБюро">false</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">false</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">false</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ФизическиеЛица.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.НачальникБюро">false</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">false</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">false</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">false</xr:Value>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="Document.ЗаявкаНаПропуск.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.ВыдачаПропуска.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.РегистрацияДвижения.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Document.АннулированиеПропуска.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+	</CommandsPlacement>
+	<CommandsOrder>
+		<Command name="Document.ЗаявкаНаПропуск.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+		</Command>
+		<Command name="Document.ВыдачаПропуска.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+		</Command>
+		<Command name="Document.РегистрацияДвижения.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+		</Command>
+		<Command name="Document.АннулированиеПропуска.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelImportant</CommandGroup>
+		</Command>
+		<Command name="Catalog.Подразделения.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.ФизическиеЛица.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.Посетители.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.Организации.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.ЗоныДоступа.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.МаркиТС.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.СтатусыПропусков.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.ТипыПропусков.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="AccumulationRegister.ДвиженияДоступа.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.ТранспортныеСредства.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Document.ЗаявкаНаПропуск.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Document.ВыдачаПропуска.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Document.РегистрацияДвижения.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Document.АннулированиеПропуска.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Catalog.ЗоныДоступа.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Catalog.МаркиТС.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Catalog.Организации.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Catalog.Подразделения.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Catalog.Подразделения.StandardCommand.CreateFolder">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Catalog.Посетители.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Catalog.СтатусыПропусков.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Catalog.ТипыПропусков.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Catalog.ТранспортныеСредства.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Catalog.ТранспортныеСредства.StandardCommand.CreateFolder">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Catalog.ФизическиеЛица.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>NavigationPanelImportant</Group>
+		<Group>NavigationPanelOrdinary</Group>
+		<Group>ActionsPanelCreate</Group>
+	</GroupsOrder>
+</CommandInterface>

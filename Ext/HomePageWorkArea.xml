@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<HomePageWorkArea xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<WorkingAreaTemplate>TwoColumnsEqualWidth</WorkingAreaTemplate>
+	<LeftColumn>
+		<Item>
+			<Form>DataProcessor.МоиЗадачи.Form.Форма</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">false</xr:Value>
+				<xr:Value name="Role.НачальникБюро">true</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">true</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">true</xr:Value>
+				<xr:Value name="65e22854-1796-4575-9b67-43b36c9a519a">true</xr:Value>
+			</Visibility>
+		</Item>
+		<Item>
+			<Form>CommonForm.СписокВсехЗадачАдминистратора</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Item>
+	</LeftColumn>
+	<RightColumn>
+		<Item>
+			<Form>Catalog.Встречи.Form.Календарь</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Администратор">true</xr:Value>
+				<xr:Value name="Role.НачальникБюро">true</xr:Value>
+				<xr:Value name="Role.СотрудникБюро">true</xr:Value>
+				<xr:Value name="Role.ДиректорДепартамента">true</xr:Value>
+				<xr:Value name="Role.Охрана">true</xr:Value>
+			</Visibility>
+		</Item>
+		<Item>
+			<Form>CommonForm.Анализ</Form>
+			<Height>10</Height>
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Item>
+	</RightColumn>
+	<MACommandInterfaceDisplays>Top</MACommandInterfaceDisplays>
+</HomePageWorkArea>

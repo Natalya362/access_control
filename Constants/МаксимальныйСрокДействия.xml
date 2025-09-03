@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
-	<Constant uuid="29f8cf9d-2f08-4855-8537-dafc891fb728">
+	<Constant uuid="a0b9afd7-cbf5-4a19-9f55-3ec17380e20e">
 		<InternalInfo>
 			<xr:GeneratedType name="ConstantManager.МаксимальныйСрокДействия" category="Manager">
-				<xr:TypeId>952a8447-2e8b-421a-82d6-cf8b8c9e107b</xr:TypeId>
-				<xr:ValueId>755e77c9-350b-4364-9290-723ee75f4a4c</xr:ValueId>
+				<xr:TypeId>25b1af2e-4859-456d-b1b4-fe8c4ec51b73</xr:TypeId>
+				<xr:ValueId>e50475ff-7efc-4ac2-9416-45099f740d01</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ConstantValueManager.МаксимальныйСрокДействия" category="ValueManager">
-				<xr:TypeId>a62a3a23-96a7-43c9-ab09-4f3fe20d48dc</xr:TypeId>
-				<xr:ValueId>40010648-498f-4e13-be66-93da7a6e72c2</xr:ValueId>
+				<xr:TypeId>88808623-cb04-4c68-bc86-fc00677fd5cd</xr:TypeId>
+				<xr:ValueId>03168d5f-ab1f-4059-9958-724178331318</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ConstantValueKey.МаксимальныйСрокДействия" category="ValueKey">
-				<xr:TypeId>57ed1136-9f78-43cc-b29e-ce71cb3f2c5f</xr:TypeId>
-				<xr:ValueId>cbd87a71-813f-4557-a4b4-e6a74bf817cf</xr:ValueId>
+				<xr:TypeId>e34e6e6b-0f7b-4ce9-8cb6-f1f8c33b0d0a</xr:TypeId>
+				<xr:ValueId>adc9fc61-9049-4f6e-be77-aa111a55670c</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>

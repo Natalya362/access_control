@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
-	<Subsystem uuid="1ebdb5e2-d3f8-47c5-8a42-831b2e9c6d43">
+	<Subsystem uuid="7cc5b329-3edf-4025-870a-1bd84ed866ee">
 		<Properties>
 			<Name>Отчетность</Name>
 			<Synonym>
@@ -14,8 +14,18 @@
 			<IncludeInCommandInterface>true</IncludeInCommandInterface>
 			<UseOneCommand>false</UseOneCommand>
 			<Explanation/>
-			<Picture/>
-			<Content/>
+			<Picture>
+				<xr:Ref>CommonPicture.ПодсистемаОтчетность</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.СписокВыданныхПропусков</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.АнализПосещенийПоТочкамКонтроля</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.РеестрИнцидентов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.АнализДвиженияТранспорта</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">2d836de2-a1c1-4b81-910b-729c002a11e3</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ЖурналПосещений</xr:Item>
+			</Content>
 		</Properties>
 		<ChildObjects/>
 	</Subsystem>

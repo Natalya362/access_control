@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
-	<Subsystem uuid="72233954-c50c-4efc-93bd-18b23452ecee">
+	<Subsystem uuid="fb37e0af-3682-4b28-ae56-9b04141f2171">
 		<Properties>
 			<Name>КонтрольДоступа</Name>
 			<Synonym>
@@ -14,11 +14,36 @@
 			<IncludeInCommandInterface>true</IncludeInCommandInterface>
 			<UseOneCommand>false</UseOneCommand>
 			<Explanation/>
-			<Picture/>
+			<Picture>
+				<xr:Ref>CommonPicture.ПодсистемаКонтрольДоступа</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.МаксимальныйСрокДействия</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Constant.ЗначениеПоУмолчанюСерьезностиИнцидента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТранспортныеСредства</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Сотрудники</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Посетители</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ЗоныДоступа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТочкиКонтроля</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ФизическиеЛица</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтатусыПропусков</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВыдачаПропуска</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.АннулированиеПропуска</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Должности</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Подразделения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Task.ЗадачаИсполнителя</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыТС</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ГрафикиРаботы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ДвиженияТС</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.НазначениеЗоныДоступа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПроверкаДоступа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.РегистрацияИнцидента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.РезультатыПроверки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Инциденты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ДвиженияПропусков</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.МаксимальныйСрокДействия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.МоиЗадачи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПроверкаСтатусаЗаявки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Встречи</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

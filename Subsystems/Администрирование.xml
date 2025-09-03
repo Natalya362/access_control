@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
-	<Subsystem uuid="3eeee4a8-2f59-4f83-826a-f86765f29492">
+	<Subsystem uuid="dd2ccff8-4762-48fd-ad27-6c5a4ae923d0">
 		<Properties>
 			<Name>Администрирование</Name>
 			<Synonym>
@@ -14,9 +14,26 @@
 			<IncludeInCommandInterface>true</IncludeInCommandInterface>
 			<UseOneCommand>false</UseOneCommand>
 			<Explanation/>
-			<Picture/>
+			<Picture>
+				<xr:Ref>CommonPicture.ПодсистемаАдминистрирование</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Организации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Подразделения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Должности</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.НазваниеОрганизации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТочкиКонтроля</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">2962c4d3-449d-4d67-906f-8173da938cbd</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">da1e122f-b9e8-4743-a60f-80164c946b13</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ИсторияСтатусовПропусков</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">BusinessProcess.СогласованиеЗаявки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РолиИсполнителей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Пользователи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Адресация</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">a6e00688-dd2f-45e0-95a9-b3267a4f6199</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.СписокАктивныхПользователей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.СписокВсехЗадачАдминистратора</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

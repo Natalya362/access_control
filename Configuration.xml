@@ -1,39 +1,44 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
-	<Configuration uuid="c9b922f1-c267-4327-b880-c94d13117df5">
+	<Configuration uuid="183c562d-87ba-4c4e-a1b6-1f351f5b8c4b">
 		<InternalInfo>
 			<xr:ContainedObject>
 				<xr:ClassId>9cd510cd-abfc-11d4-9434-004095e12fc7</xr:ClassId>
-				<xr:ObjectId>5062079f-c0fb-481c-a5c8-5c3cc6ad7a99</xr:ObjectId>
+				<xr:ObjectId>2b40923d-e12b-4b2e-891d-123d23da2353</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>9fcd25a0-4822-11d4-9414-008048da11f9</xr:ClassId>
-				<xr:ObjectId>e94bc567-ef54-490b-b53c-3e1d27971dff</xr:ObjectId>
+				<xr:ObjectId>66656d33-a69c-4466-a17c-d5802ea42fb4</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>e3687481-0a87-462c-a166-9f34594f9bba</xr:ClassId>
-				<xr:ObjectId>c96f6891-8ae3-4ca9-9de6-04cf4abf14f5</xr:ObjectId>
+				<xr:ObjectId>957c5bd1-150d-4cdc-adfc-50c9bbca9c64</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>9de14907-ec23-4a07-96f0-85521cb6b53b</xr:ClassId>
-				<xr:ObjectId>e3c5eb17-b0f6-4e47-95ff-66650b27c35f</xr:ObjectId>
+				<xr:ObjectId>e7450203-5e19-49f3-b7ee-b669294dd02d</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>51f2d5d8-ea4d-4064-8892-82951750031e</xr:ClassId>
-				<xr:ObjectId>493af5f9-0fa4-4ea3-856d-b8a6e1a7a740</xr:ObjectId>
+				<xr:ObjectId>24283745-69a7-40d6-a991-0dd994d41f5f</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>e68182ea-4237-4383-967f-90c1e3370bc7</xr:ClassId>
-				<xr:ObjectId>177b16f1-d102-44fd-9831-b61426b625eb</xr:ObjectId>
+				<xr:ObjectId>8487b68e-c93f-478d-b1f7-a4742e8f53a2</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>92ce5732-fffe-4f55-80cc-5cc0052fc4a5</xr:ObjectId>
+				<xr:ObjectId>c8c06ba8-4fdd-49a2-96a3-734d92069ee3</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
-			<Name>Конфигурация</Name>
-			<Synonym/>
+			<Name>КонтрольДоступа</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контроль доступа</v8:content>
+				</v8:item>
+			</Synonym>
 			<Comment/>
 			<NamePrefix/>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_26</ConfigurationExtensionCompatibilityMode>
@@ -42,11 +47,16 @@
 				<v8:Value xsi:type="app:ApplicationUsePurpose">PlatformApplication</v8:Value>
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
-			<DefaultRoles/>
+			<DefaultRoles>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.Администратор</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.НачальникБюро</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДиректорДепартамента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.СотрудникБюро</xr:Item>
+			</DefaultRoles>
 			<Vendor/>
 			<Version/>
 			<UpdateCatalogAddress/>
-			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
 			<UseOrdinaryFormInManagedApplication>false</UseOrdinaryFormInManagedApplication>
 			<AdditionalFullTextSearchDictionaries/>
@@ -227,20 +237,30 @@
 			<AllowedIncomingShareRequestTypes/>
 			<MainClientApplicationWindowMode>Normal</MainClientApplicationWindowMode>
 			<DefaultInterface/>
-			<DefaultStyle/>
+			<DefaultStyle>Style.Темный</DefaultStyle>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
-			<BriefInformation/>
-			<DetailedInformation/>
+			<BriefInformation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контроль доступа</v8:content>
+				</v8:item>
+			</BriefInformation>
+			<DetailedInformation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контроль доступа для бюро пропусков</v8:content>
+				</v8:item>
+			</DetailedInformation>
 			<Copyright/>
 			<VendorInformationAddress/>
 			<ConfigurationInformationAddress/>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<ObjectAutonumerationMode>NotAutoFree</ObjectAutonumerationMode>
-			<ModalityUseMode>DontUse</ModalityUseMode>
+			<ModalityUseMode>Use</ModalityUseMode>
 			<SynchronousPlatformExtensionAndAddInCallUseMode>DontUse</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
 			<DatabaseTablespacesUseMode>DontUse</DatabaseTablespacesUseMode>
-			<CompatibilityMode>Version8_3_26</CompatibilityMode>
+			<CompatibilityMode>Version8_3_25</CompatibilityMode>
 			<DefaultConstantsForm/>
 		</Properties>
 		<ChildObjects>
@@ -250,15 +270,31 @@
 			<Subsystem>КонтрольДоступа</Subsystem>
 			<Subsystem>Отчетность</Subsystem>
 			<Subsystem>Администрирование</Subsystem>
+			<Style>Темный</Style>
+			<CommonPicture>ПодсистемаУправлениеТС</CommonPicture>
+			<CommonPicture>ПодсистемаУправлениеПропусками</CommonPicture>
+			<CommonPicture>ПодсистемаКонтрольДоступа</CommonPicture>
+			<CommonPicture>ПодсистемаОтчетность</CommonPicture>
+			<CommonPicture>ПодсистемаАдминистрирование</CommonPicture>
+			<CommonPicture>ПланировщикПеренестиНаСледующийДень</CommonPicture>
+			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>Администратор</Role>
 			<Role>НачальникБюро</Role>
 			<Role>СотрудникБюро</Role>
 			<Role>ДиректорДепартамента</Role>
 			<Role>Охрана</Role>
+			<CommonModule>Пользователи</CommonModule>
+			<CommonModule>ОбщиеПроверкиПропусков</CommonModule>
+			<CommonModule>РаботаСХранилищемОбщихНастроек</CommonModule>
 			<Constant>МаксимальныйСрокДействия</Constant>
+			<Constant>НазваниеОрганизации</Constant>
 			<Constant>ЗначениеПоУмолчанюСерьезностиИнцидента</Constant>
+			<CommonForm>Анализ</CommonForm>
+			<CommonForm>СписокВсехЗадачАдминистратора</CommonForm>
+			<CommonForm>ДиаграммаПосещений</CommonForm>
 			<Catalog>Должности</Catalog>
 			<Catalog>ЗоныДоступа</Catalog>
+			<Catalog>ГрафикиРаботы</Catalog>
 			<Catalog>МаркиТС</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>Подразделения</Catalog>
@@ -267,12 +303,49 @@
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>СтатусыПропусков</Catalog>
 			<Catalog>ТочкиКонтроля</Catalog>
+			<Catalog>ТипыДокументов</Catalog>
 			<Catalog>ТипыПропусков</Catalog>
 			<Catalog>ТранспортныеСредства</Catalog>
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>РолиИсполнителей</Catalog>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>Встречи</Catalog>
+			<Document>АннулированиеПропуска</Document>
+			<Document>ВыдачаПропуска</Document>
+			<Document>ВыдачаПропускаНаТС</Document>
+			<Document>ЗаявкаНаВъездТС</Document>
+			<Document>ЗаявкаНаПропуск</Document>
+			<Document>НазначениеЗоныДоступа</Document>
+			<Document>ПроверкаДоступа</Document>
+			<Document>РегистрацияДвижения</Document>
+			<Document>РегистрацияДвиженияТС</Document>
+			<Document>РегистрацияИнцидента</Document>
+			<Enum>ДокументУдостоверяющийЛичность</Enum>
+			<Enum>ПолФизическогоЛица</Enum>
+			<Enum>РезультатыПроверки</Enum>
+			<Enum>СтатусыЗаявки</Enum>
+			<Enum>ТипПодразделения</Enum>
+			<Enum>ТипПомещения</Enum>
+			<Enum>ТипыДвижения</Enum>
+			<Enum>ТипыДвиженияТС</Enum>
+			<Enum>ТипыТС</Enum>
+			<Enum>СтатусыЗадач</Enum>
+			<Report>АнализПосещенийПоТочкамКонтроля</Report>
+			<Report>АнализДвиженияТранспорта</Report>
+			<Report>СписокВыданныхПропусков</Report>
+			<Report>РеестрИнцидентов</Report>
+			<Report>ЖурналПосещений</Report>
+			<DataProcessor>МоиЗадачи</DataProcessor>
+			<DataProcessor>ПроверкаСтатусаЗаявки</DataProcessor>
+			<DataProcessor>СписокАктивныхПользователей</DataProcessor>
+			<InformationRegister>ИсторияСтатусовПропусков</InformationRegister>
+			<InformationRegister>Адресация</InformationRegister>
+			<AccumulationRegister>ДвиженияПропусков</AccumulationRegister>
+			<AccumulationRegister>ДвиженияДоступа</AccumulationRegister>
+			<AccumulationRegister>ДвиженияТС</AccumulationRegister>
+			<AccumulationRegister>Инциденты</AccumulationRegister>
+			<BusinessProcess>СогласованиеЗаявки</BusinessProcess>
+			<Task>ЗадачаИсполнителя</Task>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

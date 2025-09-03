@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
-	<Constant uuid="fc375ca0-b10c-4382-816a-2a67dd7a2127">
+	<Constant uuid="58d4d24b-7f73-4f82-ad2c-8be223a2ece1">
 		<InternalInfo>
 			<xr:GeneratedType name="ConstantManager.ЗначениеПоУмолчанюСерьезностиИнцидента" category="Manager">
-				<xr:TypeId>66b3cb73-2c43-4ad7-b36d-cd70d59e66d1</xr:TypeId>
-				<xr:ValueId>2fa374fb-2775-42c0-9823-db60f062169e</xr:ValueId>
+				<xr:TypeId>6bc5dcd0-60c8-4e34-83a3-5d0414809319</xr:TypeId>
+				<xr:ValueId>2b2024e4-494f-4a1b-80ee-fe9d46a85f12</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ConstantValueManager.ЗначениеПоУмолчанюСерьезностиИнцидента" category="ValueManager">
-				<xr:TypeId>e3a488ce-6120-40bf-ad1a-ce3a908e6565</xr:TypeId>
-				<xr:ValueId>f4b42146-bb29-4fd7-a04a-f9f7eea7211f</xr:ValueId>
+				<xr:TypeId>28cc0c3f-2323-4fdc-be98-f013b526a7cd</xr:TypeId>
+				<xr:ValueId>25593732-4444-403d-abd2-1788cbabad50</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ConstantValueKey.ЗначениеПоУмолчанюСерьезностиИнцидента" category="ValueKey">
-				<xr:TypeId>dd8d1098-f90e-493d-8bbd-00a0a415dc3e</xr:TypeId>
-				<xr:ValueId>aedc64f5-e906-4367-a79e-5728fbbff7fa</xr:ValueId>
+				<xr:TypeId>9287fa70-0a2e-4bac-8a1e-a7493aea8c7a</xr:TypeId>
+				<xr:ValueId>041da259-ebeb-45ee-9302-0dfface005fc</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -25,11 +25,12 @@
 			</Synonym>
 			<Comment/>
 			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<v8:StringQualifiers>
-					<v8:Length>3</v8:Length>
-					<v8:AllowedLength>Variable</v8:AllowedLength>
-				</v8:StringQualifiers>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>3</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
 			</Type>
 			<UseStandardCommands>true</UseStandardCommands>
 			<DefaultForm/>
